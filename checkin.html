@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    Name: 
+    <input type="text" id="myName" value="Your name"> 
+    <p>
+    Email:
+    <input type="text" id="myEmail" value="Your Email">  
+    <p>
+    <button type="button" onclick="myfunction()"> Submit </button> 
+  
+    <p id="demo"></p> 
+  
+
+
+        <script type="text/javascript">
+            //var uName = "Alan";
+	    //var uEmail = "alan@alantest.com";
+
+            function myfunction() {
+		//document.write(uName);
+		//document.write(uEmail);
+
+            	var uName =  document.getElementById("myName").value; 
+       		var uEmail =  document.getElementById("myEmail").value; 
+	        send_statement("checked in", "http://activitystrea.ms/schema/1.0/complete", "xAPI","http://intranet.crown.archived/Dec2019", uName, uEmail);
+             
+            }
+
+
+
+        </script>
+
+	<script type="text/javascript" src="xapiwrapper.min.js"> </script>
+	<script type="text/javascript" src="xapi-statement.js"> </script>
+
+    </head>
+    <body background="crown.jpeg">
+	<p><p><p><p>
+        <script type="text/javascript">
+           // myfunction();
+        </script>
+    </body>
+</html>
