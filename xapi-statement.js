@@ -7,8 +7,8 @@ function send_statement(verb, verbId, object, objectId, uNamejs, uEmailjs) {
   //var uEmailjs = "alan@test.com";
 
   var conf = {
-    "endpoint": "https://watershedlrs.com/api/organizations/9211/lrs/",
-    "auth": "Basic " + toBase64("f5b532bf537a23:89f9c02af043a2")
+    "endpoint": "https://watershedlrs.com/api/organizations/23083/lrs/",
+    "auth": "Basic " + toBase64("172cbed96f1132:eed1052969e29b")
   };
 
   ADL.XAPIWrapper.changeConfig(conf); 
